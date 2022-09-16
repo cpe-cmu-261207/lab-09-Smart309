@@ -5,9 +5,9 @@ import { myDATA } from "../libs/myDATA";
 export default function Profile() {
   return (
     <Navbar>
-      <div class="mx-auto px-2" style={{ maxWidth: "1000px" }}>
-        <div class="border border-2 rounded-3 p-2 vstack gap-2">
-          <div class="vstack gap-3">
+      <div className="mx-auto px-2" style={{ maxWidth: "1000px" }}>
+        <div className="border border-2 rounded-3 p-2 vstack gap-2">
+          <div className="vstack gap-3">
             <img
               style={{
                 display: "block",
@@ -19,17 +19,17 @@ export default function Profile() {
               }
               width="150"
               height="150"
-              class="rounded-circle "
+              className="rounded-circle "
             />
-            <span class="fw-bold h3 text-center">PATTHARAPON TAKHAM</span>
+            <span className="fw-bold h3 text-center">PATTHARAPON TAKHAM</span>
           </div>
 
-          <div class="vstack gap-0"></div>
+          <div className="vstack gap-0"></div>
           {myDATA.map((x) => (
             <div>
               <button
                 type="button"
-                class="fw-bold"
+                className="fw-bold"
                 style={{
                   backgroundColor: "#97d3df",
                   color: "white",
@@ -50,7 +50,7 @@ export default function Profile() {
                   backgroundColor: "#f2f1f1",
                   textAlign: "center",
                 }}
-                class="border border-2"
+                className="border border-2"
               >
                 {x.data}
               </div>

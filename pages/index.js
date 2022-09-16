@@ -9,7 +9,7 @@ export default function Home() {
         minHeight: "100vh",
       }}
     >
-      <div class="position-absolute top-50 start-50 translate-middle vstack">
+      <div className="position-absolute top-50 start-50 translate-middle vstack">
         <Link href="/Manu">
           <a
             style={{
@@ -17,7 +17,7 @@ export default function Home() {
               fontSize: "150px",
               fontFamily: "Rubik Moonrocks",
             }}
-            class="text-white"
+            className="text-white"
             href=""
           >
             SMART

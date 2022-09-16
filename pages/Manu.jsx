@@ -9,7 +9,7 @@ export default function Manu() {
         minHeight: "100vh",
       }}
     >
-      <div class="vstack text-center my-5">
+      <div className="vstack text-center my-5">
         <Link href="/Profile">
           <a
             style={{
@@ -49,7 +49,11 @@ export default function Manu() {
       </div>
       <Link href="/">
         <a href="">
-          <img src="/png-house-icon-18.jpg" class="bottomleft" width="50px" />
+          <img
+            src="/png-house-icon-18.jpg"
+            classNameName="bottomleft"
+            width="50px"
+          />
         </a>
       </Link>
     </div>

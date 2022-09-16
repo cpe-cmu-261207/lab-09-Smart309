@@ -4,8 +4,8 @@ import React from "react";
 export default function Navbar(props) {
   return (
     <div>
-      <div class="text-bg-info text-white mb-2">
-        <div class="d-flex align-item-center mx-auto">
+      <div className="text-bg-info text-white mb-2">
+        <div className="d-flex align-item-center mx-auto">
           <Link href="/Manu">
             <a
               style={{
@@ -13,14 +13,14 @@ export default function Navbar(props) {
                 color: "white",
                 textDecoration: "none",
               }}
-              class="me-auto h2"
+              className="me-auto h2"
               href=""
             >
               SMART
             </a>
           </Link>
 
-          <div class="hstack gap-3">
+          <div className="hstack gap-3">
             <Link href="/Profile">
               <a
                 style={{
